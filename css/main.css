@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+h3 {
+    font-family: "Poppins";
+    text-align: center;
+    margin: 5% 0%;
+}
+
+h4 {
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 15px;
+}
+
+body {
+    background-color: #FFE9D8;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a {
+    font-family: "Poppins";
+    color: black;
+    
+}
+
+.navbar {
+    align-items: center;
+    padding: 0 5% 0;
+}
+
+.nav-link {
+    font-family: "Playfair Display";
+    font-size: 18px;
+}
+
+.nav-item {
+    padding: 0 2% 0;
+}
+
+#title {
+    height: 100%;
+}
+
+.title {
+    font-family: "Playfair Display";
+    font-size: 65px;
+    text-align: center;
+}
+
+.title-img {
+    width: 90%;
+    padding: 3% 0%;
+}
+
+.dbutton {
+    display: none;
+}
+
+.button {
+    padding-top: 10%;
+}
+
+.tbtn {
+    width: 190px;
+    height: 60px;
+    font-size: 24px;
+    font-family: "Poppins";
+    
+    background-color: white;
+    border: 2.9px solid black;
+    border-radius: 0px;
+}
+
+.arrow {
+    text-align: center;
+    display: inline-block;
+    font-family: "Poppins";
+    font-weight: 100;
+    font-size: 55px;
+    padding-top: 3%;
+}
+
+#inf {
+    background-color: white;
+    padding: 0%;
+}
+
+.infimage {
+    width: 30%;
+    padding: 7% 0%;
+}
+
+#linkInf {
+    background-color: #FFE9D8;
+    padding: 10% 0%;
+}
+
+.infahref {
+    font-size: 22px;
+    text-align: center;
+}
+
+#footer {
+    padding: 4% 15%;
+    background-color: white;
+    
+}
+
+.mobile {
+    display: initial;
+}
+
+.desktop {
+    display: none;
+}
+
+/* Shop */
+
+.shop-img {
+    height: 320px;
+    width: auto;
+}
+
+.shop-title {
+    font-family: "Architects Daughter";
+    text-align: center;
+    font-size: 35px;
+    padding-top: 5%;
+}
+
+.shop-text {
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 17px;
+}
+
+@media only screen and (min-width: 1024px) {
+    
+    #inf {
+        padding: 0%;
+    }
+
+    .navbar {
+        padding:2% 15% 0;
+    }
+
+    .nav-link {
+        font-size: 24px;
+    }
+
+    .nav-item {
+       padding: 0 12% 0;
+    }
+
+    .title {
+        font-size: 150px;
+        text-align: left;
+        padding-left: 25px;
+        padding-bottom: 35px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .dbutton {
+        display: initial;
+        position: relative;
+        top: 20px;
+    }
+
+    .tbtn {
+        font-size: 30px;
+        width: 250px;
+        height: 80px;
+    }
+
+    .arrow {
+        padding: 0;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: initial;
+    }
+
+    .infimage {
+        padding: 15% 7%;
+        width: 240px;
+    }
+
+    .tright {
+        padding: 0% 5%;
+        text-align: left;
+        font-size: 40px;
+    }
+
+    .tleft {
+        padding: 0% 5%;
+        text-align: right;
+        font-size: 40px;
+    }
+
+    #linkInf {
+        padding: 3% 0%;
+    }
+  }
